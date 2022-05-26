@@ -48,6 +48,7 @@ Example: ![Compile](./Execution_Results/Compile_Example.png)
 7. Create and save a new network in MetaMask as shown below:
 ![MetaMask_Network](./Execution_Results/Network.png)  
 8. Open MetaMask and choose **Import Account**:
+
 ![Import_Account](./Execution_Results/Import_Account.png)
 9. Go to Ganache and copy a private key for the account:
 ![Find_Key](./Execution_Results/find_key.png)
