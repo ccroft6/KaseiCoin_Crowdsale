@@ -89,8 +89,39 @@ Example: ![Import_Account](./Execution_Results/Import_Account.png)
 Here are examples of the KaseiCoin crowdsale in action:
 
 ### Deployed Contract
+Deploy the `KaseiCoinCrowdsaleDeployer` contract from the `KaseiCoinCrowdsale.sol` file:
+![Deploy Contract](./Execution_Results/Deploy_Contract.png)
 
+Fill in the 3 required boxes for the DEPLOY function and press **transact**:
+![Transact](./Execution_Results/transact_boxes.png)
 
+Confirm the deployment in MetaMask:
+![Deploy in MetaMask](./Execution_Results/Deploy_MetaMask.png)
+
+![Deployed in MetaMask](./Execution_Results/Deployed_ContractMM.png)
+
+Confirm the deployment in Ganache:
+![Deployed in Ganache](./Execution_Results/Deploy_Ganache.png)
+
+![Deployed in Ganache2](./Execution_Results/Deploy_Ganache2.png)
+
+### Link the Contract Addresses to the Remix Smart Contract
+
+Copy the `kasei_crowdsale_address`. Change the contract to `KaseiCoinCrowdsale`. Paste the address into the box next to "At Address". Click the button "At Address". This tells Remix where the contract is located:
+![Link_Crowdsale_Address](./Execution_Results/copy_address.png)
+
+![Change Contract and Paste Address](./Execution_Results/paste_address.png)
+
+The KaseiCoinCrowdsale contract functions appear in the deployment pane:
+![Contract Functions](./Execution_Results/contract_functions.png)
+
+Now, copy the `kasei_token_address`. Change the contract to `KaseiCoin`. Paste the address into the box next to "At Address". Click the button "At Address" to link the contract.
+![Link_Token_Address](./Execution_Results/link_token_address.png)
+
+The KaseiCoin contract functions appear in the deployment pane:
+![Token Functions](./Execution_Results/mint_functions.png)
+
+### Interact with the Contracts
 
 ---
 
