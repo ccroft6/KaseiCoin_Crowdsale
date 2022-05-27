@@ -123,6 +123,29 @@ The KaseiCoin contract functions appear in the deployment pane:
 
 ### Interact with the Contracts
 
+1. Specify the address that is buying the tokens by using the `KaseiCoinCrowdsale` contract "buyToken" function. *(I used the address in Account 3 of MetaMask and the second address from Ganache - 0x323)*
+![Buy Tokens Address](./Execution_Results/buy_tokens_address.png)
+
+2. Input the value in Ether to buy the corresponding amount of tokens.
+![Buy Ether](./Execution_Results/buy_8_ether_example.png)
+
+**IMPORTANT NOTE: My Ganache got disconnected, so I had to go through the process again and add new account addresses. I will point out which address from the screenshots above that it would correspond to. The new example can be found in entirety in the videos I uploaded to the "Video" folder.**
+
+3. Click on the "buyTokens" button and MetaMask will open showing the transaction. Click "confirm" to confirm the transaction. (In this new example, the new address bought 9 Ether)
+![MetaMask Confirm Ether](./Execution_Results/9_ether_example.png)
+
+4. Click on the "balanceOf" button to check the current balance of the address that bought the tokens *(Example from earlier would be the 0x323 address. Current example is the 0x163 address)*.
+
+![Balance Of Address](./Execution_Results/balanceOf.png)
+
+5. Select the buttons from the `KaseiCoinCrowdsale` Contract:
+-Click on the "rate" button to check how many tokens you get per Ether. 
+-Click on the "token" button to verify the address of the token 
+-Click on the "wallet" button to see the account address where all of the ether raised in the crowdsale will go 
+-Click on the "weiRaised" button to see the amount of wei that has been raised so far in the crowdsale.
+
+![Button Functions](./Execution_Results/button_functions_example.png)
+
 ---
 
 ## Contributors
